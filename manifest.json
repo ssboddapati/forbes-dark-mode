@@ -1,0 +1,15 @@
+{
+  "name": "fbs-dark-mode",
+  "description": "Dark mode designed for Forbes website (internal use)",
+  "version": "2.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Forbes dark mode",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab"
+  ]
+}

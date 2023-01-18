@@ -1,0 +1,100 @@
+body {
+  background-color: #333;
+  min-width: 300px;
+  text-align: center;
+}
+
+.popup .fs-icon--forbes-logo {
+  height: 25px;
+  margin-bottom: -2px;
+}
+
+.dark {
+  color: #6ca9ff;
+}
+
+p,
+.button {
+  font-size: 1.15rem;
+  color: #f5f5f5;
+}
+
+.button {
+  margin: auto;
+  margin-bottom: 1.5rem;
+  background-color: #bed9fe;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 2.5rem;
+  width: 9.5rem;
+  border-radius: 1.25rem;
+  cursor: pointer;
+}
+
+.row {
+  padding: 0 .5rem;
+  pointer-events: none;
+  color: black;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2.5rem;
+  width: 5rem;
+  border-radius: 1.25rem;
+  background-color: #619afd;
+  pointer-events: none;
+}
+
+@keyframes moveCircleRight {
+  from {
+    left: 0;
+    background-color: #619afd;
+  }
+
+  to {
+    left: 100%;
+    transform: translate(-100%);
+    background-color: #f68500;
+  }
+}
+
+@keyframes moveCircleLeft {
+  from {
+    left: 100%;
+    transform: translate(-100%);
+    background-color: #f68500;
+  }
+
+  to {
+    left: 0;
+    background-color: #619afd;
+  }
+}
+
+@keyframes backgroundYellow {
+  from {
+    background-color: #619afd;
+  }
+
+  to {
+    left: 0;
+    background-color: #ffce8a;
+  }
+}
+
+@keyframes backgroundLeft {
+  from {
+    background-color: #ffce8a;
+  }
+
+  to {
+    left: 0;
+    background-color: #619afd;
+  }
+}

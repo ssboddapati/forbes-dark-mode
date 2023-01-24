@@ -11,5 +11,10 @@
     "tabs",
     "scripting",
     "activeTab"
-  ]
+  ],
+  "icons": {
+    "16": "Forbeslogo.png",
+    "48": "Forbeslogo.png",
+    "128": "Forbeslogo.png"
+  }
 }
